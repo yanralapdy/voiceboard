@@ -21,7 +21,7 @@ struct Args {
     #[arg(long, default_value = "en", help = "Language code (e.g. en, fr, de, ja)")]
     language: String,
 
-    #[arg(long, default_value_t = 2.0, help = "Auto-stop after N seconds of silence (0 = disabled, use Enter toggle)")]
+    #[arg(long, default_value_t = 3.5, help = "Auto-stop after N seconds of silence (0 = disabled, use Enter toggle)")]
     silence_timeout: f32,
 }
 

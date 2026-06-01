@@ -68,7 +68,7 @@ Options:
                                  [possible: tiny, base, small, medium, large]
       --language <CODE>          Language code [default: en]
                                  (e.g. en, fr, de, ja, zh)
-      --silence-timeout <SECS>   Auto-stop after N seconds of silence [default: 2]
+      --silence-timeout <SECS>   Auto-stop after N seconds of silence [default: 3.5]
                                  Set to 0 to disable and use Enter toggle instead
   -h, --help                     Print help
   -V, --version                  Print version
@@ -92,11 +92,11 @@ q
 ### Auto-stop mode
 
 ```
-$ voiceboard --silence-timeout 1.5
+$ voiceboard --silence-timeout 2.0
 
 ▶ Press Enter to start recording.
 (Enter)
-  Recording… auto-stop after 1.5s of silence.
+  Recording… auto-stop after 2s of silence.
   (speak... pause...)
   ✓ "short meeting notes"
   (copied to clipboard)
