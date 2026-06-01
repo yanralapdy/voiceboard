@@ -68,7 +68,7 @@ Options:
                                  [possible: tiny, base, small, medium, large]
       --language <CODE>          Language code [default: en]
                                  (e.g. en, fr, de, ja, zh)
-      --silence-timeout <SECS>   Auto-stop after N seconds of silence [default: 3.5]
+      --silence-timeout <SECS>   Auto-stop after N seconds of silence [default: 5]
                                  Set to 0 to disable and use Enter toggle instead
   -h, --help                     Print help
   -V, --version                  Print version
